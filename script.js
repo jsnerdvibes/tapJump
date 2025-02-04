@@ -176,7 +176,7 @@ class Player{
     showGameOver(message) {
         document.querySelector('#dialoge1').style.display = 'flex';
         document.querySelector('#messege').innerText = 'Game Over!!\n\n' + message;
-        document.querySelector('#button1').innerText = 'Restart';
+        document.querySelector('#button1').innerHTML = '<img src="/assets/restart-circle-svgrepo-com.svg" alt="Restart Game">';
     }
 }
 
